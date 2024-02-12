@@ -177,33 +177,30 @@
                 font-size: normal;
                 font-size: 23px;
                 text-align: center;
-                        /* Styling the Body element 
-        i.e. Color, Font, Alignment */
-        body {
-            background-color: #05c46b;
-            font-family: Verdana;
-            text-align: center;
-        }
+        
  
         /* Styling the Form (Color, Padding, Shadow) */
         form {
-            background-color: #fff;
+            background-color:#f4eada;
             max-width: 500px;
             margin: 50px auto;
             padding: 30px 20px;
-            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+            box-shadow: 2px 5px 10px #6b4e45;
         }
  
         /* Styling form-control Class */
         .form-control {
-            text-align: left;
-            margin-bottom: 25px;
+            text-align:right;
+            margin-right: 5%;
+            text: color #6b4e45;
+        ;
         }
  
         /* Styling form-control Label */
         .form-control label {
             display: block;
             margin-bottom: 10px;
+            color: #6b4e45;
         }
  
         /* Styling form-control input, 
@@ -211,8 +208,8 @@
         .form-control input,
         .form-control select,
         .form-control textarea {
-            border: 1px solid #777;
-            border-radius: 2px;
+            border: 1px solid #6b4e45;
+            border-radius: 4px;
             font-family: inherit;
             padding: 10px;
             display: block;
@@ -372,9 +369,7 @@
  
                 <!-- Details -->
                 <div class="form-control">
-                    <label for="name" id="label-name">
-                        Name
-                    </label>
+                    <label for="الاسم" id="label-name">الاسم</label>
          
                     <!-- Input Type Text -->
                     <input type="text" id="name"
@@ -383,68 +378,21 @@
          
                 <div class="form-control">
                     <label for="الايميل" id="label-email">
-                        Email
-                    </label>
+                      الايميل</label>
          
                     <!-- Input Type Email-->
-                    <input type="الايميل" id="email"
-                           placeholder="Enter your email" />
+                    <input type= "email" id="email"
+                           placeholder="ايميلك الشخصي ليصلك كل جديد" />
                 </div>
          
                 <div class="form-control">
-                    <label for="العمر" id="label-age">
-                        Age
-                    </label>
+                    <label for="العمر" id="label-age"> العمر</label>
          
                     <!-- Input Type Text -->
-                    <input type="text" id="age"
-                           placeholder="Enter your age" />
+                    <input type="date" id="age"
+                           placeholder="العمر" />
                 </div>
-         
-                <div class="form-control">
-                    <label for="role" id="label-role">
-                        Which option best describes you?
-                    </label>
-         
-                    <!-- Dropdown options -->
-                    <select name="role" id="role">
-                        <option value="student">Student</option>
-                        <option value="intern">Intern</option>
-                        <option value="professional">
-                            Professional
-                        </option>
-                        <option value="other">Other</option>
-                    </select>
-                </div>
-         
-                <div class="form-control">
-                    <label>
-                        Would you recommend GeeksforGeeks
-                        to a friend?
-                    </label>
-         
-                    <!-- Input Type Radio Button -->
-                    <label for="recommed-1">
-                        <input type="radio" id="recommed-1"
-                               name="recommed">Yes
-                          </input>
-                    </label>
-                    <label for="recommed-2">
-                        <input type="radio" id="recommed-2"
-                               name="recommed">No
-                          </input>
-                    </label>
-                    <label for="recommed-3">
-                        <input type="radio" id="recommed-3"
-                               name="recommed">Maybe
-                          </input>
-                    </label>
-                </div>
-         
-                <div class="form-control">
-                    <label>Languages and Frameworks known
-                        <small>(Check all that apply)</small>
-                    </label>
+        
          
                 <div class="form-control">
                     <label for="comment">
@@ -452,14 +400,14 @@
                     </label>
          
                     <!-- multi-line text input control -->
-                    <textarea name="comment" id="comment"
+                    <textarea name="اكتب تعليقك هنا" id="comment"
                               placeholder="اكتب تعليقك هنا">
                     </textarea>
                 </div>
          
                 <!-- Multi-line Text Input Control -->
-                <button type="submit" value="submit">
-                    Submit
+                <button type="button" value="button">
+                       <h3>ارسل</h3>
                 </button>
             </form>
 
